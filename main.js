@@ -14,7 +14,7 @@ function countUp() {
 }
 let counter = setInterval(countUp, 50);
 
-
+let num = document.querySelector(".number");
 function countNumber() {
   let currentValueTwo = parseInt(num.innerHTML);
   let newValueTwo = currentValueTwo + 1;
